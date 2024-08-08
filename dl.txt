@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------------------------------------------
+Day # 1 - Aug 08 2024 - Thursday
+
+2024-08-08 15:05:24
+---------------------------------------
+git bash 
+	https://gitforwindows.org/
+
+	after installing git bash 
+
+	git config --global user.name "Abitha"
+	git config --global user.email "kabitha2707@gmail.com"
+
+
+ssh-keygen -t rsa -b 4096 -C "kabitha2707@gmail.com"
+
+
+eval $(ssh-agent -s)
+
+
+ssh-add ~/.ssh/id_rsa
+
+
+cat ~/.ssh/id_rsa.pub
+
+conda env list
+
+
+
+ git clone git@github.com:Abitha2707/dailylogs.git
+
+echo "# dailylogs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Abitha2707/dailylogs.git
+git push -u origin main
+
+
+
+
+
+-------------
